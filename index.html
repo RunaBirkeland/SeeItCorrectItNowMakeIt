@@ -3,13 +3,40 @@
     <head>
         <title>UAT</title>
         <link rel="stylesheet" href="style-it.css">
+        <script type = "text/javascript">
+            function displayNextImage() {
+                x = (x === images.length - 1) ? 0 : x + 1;
+                document.getElementById("img").src = images[x];
+            }
+  
+            function displayPreviousImage() {
+                x = (x <= 0) ? images.length - 1 : x - 1;
+                document.getElementById("img").src = images[x];
+            }
+  
+            function startTimer() {
+                setInterval(displayNextImage, 3000);
+            }
+  
+            var images = [], x = -1;
+            images[0] = "PIXELS.png";
+            images[1] = "FIREWALL.png";
+            images[2] = "QUBIT.png";
+        </script>
     </head>
-    <body>
+    <body onload = "startTimer()">
         <header>
 
         </header>
         <section class="banner">
-            <h1>THINK OUTSIDE THE</h1>
+            <div class="bannerText">
+                <div>
+                    <h1>THINK OUTSIDE THE</h1>
+                </div>
+                <div>
+                    <img class="textImg" id="img" src="PIXELS.png"/>
+                </div>
+            </div>
         </section>
         <section>
             Squares
