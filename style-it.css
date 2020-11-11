@@ -84,7 +84,7 @@ h1 {
     width: 150px;
     height: 50px;
 }
-@media (max-width:958px) {
+@media (max-width:1265px) {
   nav img{
     left:1%;
     top:5px;
@@ -96,7 +96,7 @@ h1 {
 
   }
 }
-@media (max-width:958px) {
+@media (max-width:1265px) {
   label #btn{
     display: block;
   }
