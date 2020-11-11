@@ -10,8 +10,8 @@ nav{
   background: #fff;
 }
 nav img{
-  width: 400px;
-  height: 140px;
+  width: 380px;
+  height: 120px;
   position: absolute;
   top: 6px;
   left: 2%;
@@ -88,8 +88,8 @@ h1 {
   nav img{
     left:1%;
     top:5px;
-    width: 280px;
-    height: 97px;
+    width: 330px;
+    height: 110px;
   }
   nav ul li a{
     font-size: 17px;
