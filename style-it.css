@@ -270,3 +270,8 @@ p {
   font-size: 12pt;
 }
 
+button:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
