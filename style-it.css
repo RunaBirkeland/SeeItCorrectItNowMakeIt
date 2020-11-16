@@ -132,6 +132,12 @@ h1 {
     display: block;
   }
 }
+@media (max-width:407px) {
+  nav img{
+    width: 250px;
+    height: 80px;
+  }
+}
 
 .row {
   display: flex;
