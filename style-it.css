@@ -48,6 +48,21 @@ nav ul li a:hover::before{
   transform: scaleX(1);
   transform-origin:left;
 }
+nav ul ul{
+  background: white;
+  position: absolute;
+  top: 70px;
+  display: none;
+}
+nav ul li:hover > ul{
+  display: block;
+}
+nav ul ul li{
+  width: 200px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
 label #btn, label #cancel{
   color: #000;
   font-size: 30px;
